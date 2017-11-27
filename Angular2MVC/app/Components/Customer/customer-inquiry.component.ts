@@ -16,7 +16,7 @@ export var debugVersion = "?version=" + Date.now();
 
 
     //directives: [DataGrid, AlertBoxComponent],
-    providers: [AlertService]
+    //providers: [AlertService]    /// Comment this because you have already provided your service in app.module.ts
 })
 
 export class CustomerInquiryComponent implements OnInit {
