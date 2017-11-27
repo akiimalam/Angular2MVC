@@ -22,6 +22,7 @@ import { DataGrid } from './Components/Shared/DataGrid/datagrid.component';
 //import { DataGridColumn, DataGridButton, DataGridEventInformation } from './shared/datagrid/datagrid.core';
 //import { DataGrid } from './components/home.component';
 
+// import AlertBoxComponent and add it in the declerations
 
 @NgModule({
     imports: [BrowserModule, FormsModule, ReactiveFormsModule, HttpModule, routing, Ng2Bs3ModalModule],
